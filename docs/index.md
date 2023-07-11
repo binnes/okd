@@ -5,10 +5,35 @@ title: OKD.io
 
 <!--- cSpell:ignore roadmap -->
 
-!!! Info "Latest"
-    **Announcing OKD Streams: Building the Next Generation of OKD together** - [see blog for details](blog/2022-10-25-OKD-Streams-Building-the-Next-Generation-of-OKD-together.md)
+!!!Todo
+    These are the notes from the community meeting.  Need to transform the content of the home page based on these notes
 
-Built around a core of OCI container packaging and Kubernetes container cluster management, OKD is also augmented by application lifecycle management functionality and DevOps tooling. OKD provides a complete open source container application platform.
+OKD is an opinionated, enterprise-ready Kubernetes distribution optimized for security, high availability and resilience.
+
+OKD is tighly coupled with the underlying operating system with automatic updates not only for OKD but also for the host OS, k8s Operators, which are first class citizens.
+
+OKD shares the same code base as the Red Hat OpenShift Container Platform.
+
+OKD is open source and is free to use without having to signup or register, although there may be benefits to signing up to the Red Hat developer program to access knowledge base articles and take advantage of the developer resources from Red Hat.
+
+OKD is a feature rich Kubernetes distribution, providing enhanced capability over core Kubernetes, for developer workflow, operations.  Feature rich GUI and commandline tooling
+
+Can be run on bare-metal, virtualised environments or on cloud providers
+
+OKD has Operator Lifecycle Manager (OLM) and helm installed out of the box, so can install Kubernetes operators, such as ArgoCD for gitops, Elastic Search and other standard Kubernetes applications, such as Tekton.  This enables a full development and deployment environment to be created.
+
+The core Tekton project also contains plugins to the OKD GUI to provide enhanced pipeline management functionality within the browser
+
+OKD is driven by a community of passionate volunteers
+- provide assistance to other community members
+- curate and manage community online resources
+- help steer OKD development
+- looking for contributors
+
+so need appropriate compute and memory resources.  It is not intended to run on a developer laptop
+
+!!!Todo
+    Transform the content below here based on notes above
 
 ## OKD 4
 
